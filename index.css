@@ -1,0 +1,195 @@
+
+/* NAVIGATION BAR **************************************/
+
+body nav{
+    height: 10vh;
+}
+
+.bg-success {
+    --bs-bg-opacity: 0.5;
+}
+
+.navbar-items{
+    font-size: 20px;;
+}
+
+/* GRID COLUMNS ********************************************/
+
+.columns-container{
+    height: 90vh;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+
+}
+
+
+/* TEXT SECTION OF MAIN ***********************************/
+
+
+.title-container{
+    width: 80%;
+    margin: 15% auto;
+}
+
+h1{
+    font-size: 60px;
+}
+
+p{
+    font-size: 30px;
+}
+
+
+.slogan {
+    border-left: 3px solid black;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.instructions{
+    /* font-style: italic; */
+    font-size: 20px;
+}
+
+
+
+#pause-animation-but {
+    color: rgb(72, 72, 72);
+    font-size: 16px;
+    border: none;
+    text-decoration: underline;
+    background-color: white;
+    position: absolute;
+    bottom: 2vh;
+}
+
+
+/* POPUP ******************************************/
+
+ 
+
+#popup{
+    width: 50vw;
+    height: 50vh;
+    background: #afd6b7;
+    border-radius: 15px;
+    position: absolute;
+    top: 25vh ;
+    left: 25vw;
+    /* box-shadow: 0 0 20px 5px #747474; */
+
+    color: #2f2f2f;
+    visibility: hidden;
+
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image-section {
+    position: static;
+    width: calc(0.4*50vw);
+    height: calc(0.9*50vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container {
+    position: static;
+    border: 3px solid black;
+    width: calc(0.3 * 50vw);
+    height: calc(0.8 *50vh);
+}
+
+.information-section{
+    position: static;
+    width: calc(0.6*50vw);
+    height: calc(0.9*50vh);
+    padding-top: 2vh;
+
+}
+
+#plant-description {
+    font-size: 20px;
+}
+
+#closeThisPopup {
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
+/* SLIDING PICTURES ************************************/
+
+.slides-container{
+    height: 90vh;
+    overflow: hidden;
+}
+
+.plant-pic{
+    width:100%;
+    height: calc(0.4* 90vh);
+    margin: 10px 0;
+    border-radius: 25px;
+    background-size: 100%;
+}
+
+.column-2{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+}
+
+.plant-1{
+    background-image: url("plants/plant1.jpg");
+}
+
+.plant-2{
+    background-image: url("plants/plant2.jpg");
+}
+
+.plant-3{
+    background-image: url("plants/plant3.jpg");
+}
+
+.plant-4{
+    background-image: url("plants/plant4.jpg");
+}
+
+
+@keyframes slideup {
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(-100%);
+    }
+} 
+
+@keyframes slidedown {
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(100%);
+    }
+}
+
+.slide-up {
+    animation-play-state: running;
+    animation: slideup 20s infinite linear;
+}
+
+.slide-down {
+    animation-play-state: running;
+    animation: slidedown 20s infinite linear;
+
+}

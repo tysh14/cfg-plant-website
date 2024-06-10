@@ -1,0 +1,139 @@
+body /*{
+    /*/background-color: rgb(255, 250, 217);
+
+} */
+
+body nav{
+    height: 10vh;
+
+
+}
+
+.bg-success {
+    --bs-bg-opacity: 0.5;
+}
+
+.navbar-items{
+    font-size: 20px;;
+}
+
+.columns-container{
+    height: 90vh;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+
+}
+
+.title-container{
+    width: 80%;
+    margin: 20% auto;
+}
+
+h1{
+    font-size: 65px;
+}
+
+p{
+    font-size: 30px;
+}
+
+
+.my-column{
+    /*border: 3px solid black;*/
+    height: 100%;
+
+}
+
+.slides-container{
+    height: 100%;
+    overflow: hidden;
+}
+
+.plant-pic{
+    width:100%;
+    margin: 10px 0;
+}
+
+.logos-slide {
+    animation: 8s slide infinite linear;
+}
+
+@keyframes slide{
+    from{
+        transform: translateY(0)
+    }
+    to{
+        transform: translateY(-100%)
+    }
+}
+
+nav li { 
+    display: inline-block; 
+    margin-right: 20px; /* Adjust the value as needed to increase or decrease spacing of items in nav-bar */ 
+} 
+nav li { 
+    display: inline-block; 
+    margin-right: 20px; /* Adjust the value as needed */ 
+} 
+
+.news-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: "Roboto", sans-serif;
+    box-shadow: 0 4px 8px -4px rgba(0, 0, 0, 0.3);
+}
+
+.news-container .title {
+    position: absolute;
+    background: #f480ff;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    z-index: 200;
+}
+
+.news-container ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    animation: scroll 25s infinite linear;
+}
+
+.news-container ul li {
+    white-space: nowrap;
+    padding: 10px 24px;
+    color: #000000;
+    position: relative;
+}
+
+.news-container ul li::after {
+    content:"";
+    width: 1px;
+    height: 100%;
+    background: #f5f6d5;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.news-container ul li:last-child::after {
+    display: none;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(-1083px);
+
+    }
+}
