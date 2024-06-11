@@ -59,6 +59,7 @@ addEventListener("DOMContentLoaded", (event) => {
     
     function plant2Funct() {
         document.getElementbyId("image-container").style.backgroundImage = "url('plantshome/Orchid.jpg')"
+        document.getElementbyId("image-container").style.backgroundSize = "100%"
         document.getElementById("popup").style.visibility = "visible";
         document.getElementById("plant-name").textContent = "Orchid"
         document.getElementById("plant-description").textContent = "Plant 2 info"
@@ -66,6 +67,7 @@ addEventListener("DOMContentLoaded", (event) => {
     
     function plant3Funct() {
         document.getElementbyId("image-container").style.backgroundImage = "url('plantshome/RedChineseEvergreen.webp')"
+        document.getElementbyId("image-container").style.backgroundSize = "100%"
         document.getElementById("popup").style.visibility = "visible";
         document.getElementById("plant-name").textContent = "Red Chinese Evergreen"
         document.getElementById("plant-description").textContent = "Plant 3 info"
@@ -74,6 +76,7 @@ addEventListener("DOMContentLoaded", (event) => {
     
     function plant4Funct() {
         document.getElementbyId("image-container").style.backgroundImage = "url('plantshome/RubberPlant.webp')"
+        document.getElementbyId("image-container").style.backgroundSize = "100%"
         document.getElementById("popup").style.visibility = "visible";
         document.getElementById("plant-name").textContent = "Rubber Plant"
         document.getElementById("plant-description").textContent = "Plant 4 info"
