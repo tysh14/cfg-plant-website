@@ -13,6 +13,11 @@ body nav{
     font-size: 20px;;
 }
 
+nav li { 
+    display: inline-block; 
+    margin-right: 20px; /* Adjust the value as needed */ 
+} 
+
 /* GRID COLUMNS ********************************************/
 
 .columns-container{
