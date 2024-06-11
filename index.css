@@ -105,6 +105,8 @@ p{
     border: 3px solid black;
     width: calc(0.3 * 50vw);
     height: calc(0.8 *50vh);
+    background-image: url("plantshome/Orchid.jpg");
+    background-size: 100%;
 }
 
 .information-section{
@@ -149,19 +151,23 @@ p{
 }
 
 .plant-1{
-    background-image: url("plants/plant1.jpg");
+    background-image: url("plantshome/Bromeliad.webp");
+    background-size: 100%;
 }
 
 .plant-2{
-    background-image: url("plants/plant2.jpg");
+    background-image: url("plantshome/Orchid.jpg");
+    background-size: 100%;
 }
 
 .plant-3{
-    background-image: url("plants/plant3.jpg");
+    background-image: url("plantshome/RedChineseEvergreen.webp");
+    background-size: 100%;
 }
 
 .plant-4{
-    background-image: url("plants/plant4.jpg");
+    background-image: url("plantshome/RubberPlant.webp");
+    background-size: 100%;
 }
 
 
