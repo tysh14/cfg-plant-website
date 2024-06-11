@@ -49,6 +49,8 @@ addEventListener("DOMContentLoaded", (event) => {
 
     
     function plant1Funct() {
+        document.getElementbyId("image-container").style.backgroundImage = "url('plantshome/Bromeliad.webp')"
+        document.getElementbyId("image-container").style.backgroundSize = "150%"
         document.getElementById("popup").style.visibility = "visible";
         document.getElementById("plant-name").textContent = "Bromeliad"
         document.getElementById("plant-description").textContent = "Plant 1 info"
@@ -56,12 +58,14 @@ addEventListener("DOMContentLoaded", (event) => {
 
     
     function plant2Funct() {
+        document.getElementbyId("image-container").style.backgroundImage = "url('plantshome/Orchid.jpg')"
         document.getElementById("popup").style.visibility = "visible";
         document.getElementById("plant-name").textContent = "Orchid"
         document.getElementById("plant-description").textContent = "Plant 2 info"
     }
     
     function plant3Funct() {
+        document.getElementbyId("image-container").style.backgroundImage = "url('plantshome/RedChineseEvergreen.webp')"
         document.getElementById("popup").style.visibility = "visible";
         document.getElementById("plant-name").textContent = "Red Chinese Evergreen"
         document.getElementById("plant-description").textContent = "Plant 3 info"
@@ -69,6 +73,7 @@ addEventListener("DOMContentLoaded", (event) => {
     }
     
     function plant4Funct() {
+        document.getElementbyId("image-container").style.backgroundImage = "url('plantshome/RubberPlant.webp')"
         document.getElementById("popup").style.visibility = "visible";
         document.getElementById("plant-name").textContent = "Rubber Plant"
         document.getElementById("plant-description").textContent = "Plant 4 info"
