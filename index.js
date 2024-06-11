@@ -49,32 +49,28 @@ addEventListener("DOMContentLoaded", (event) => {
 
     
     function plant1Funct() {
-        console.log("plant1")
         document.getElementById("popup").style.visibility = "visible";
-        document.getElementById("plant-name").textContent = "PLANT 1"
+        document.getElementById("plant-name").textContent = "Bromeliad"
         document.getElementById("plant-description").textContent = "Plant 1 info"
     }
 
     
     function plant2Funct() {
-        console.log("plant2")
         document.getElementById("popup").style.visibility = "visible";
-        document.getElementById("plant-name").textContent = "PLANT 2"
+        document.getElementById("plant-name").textContent = "Orchid"
         document.getElementById("plant-description").textContent = "Plant 2 info"
     }
     
     function plant3Funct() {
-        console.log("plant3")
         document.getElementById("popup").style.visibility = "visible";
-        document.getElementById("plant-name").textContent = "PLANT 3"
+        document.getElementById("plant-name").textContent = "Red Chinese Evergreen"
         document.getElementById("plant-description").textContent = "Plant 3 info"
 
     }
     
     function plant4Funct() {
-        console.log("plant4")
         document.getElementById("popup").style.visibility = "visible";
-        document.getElementById("plant-name").textContent = "PLANT 4"
+        document.getElementById("plant-name").textContent = "Rubber Plant"
         document.getElementById("plant-description").textContent = "Plant 4 info"
     }
 
