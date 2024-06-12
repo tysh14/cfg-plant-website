@@ -47,10 +47,6 @@ nav ul {
     display: flex;
 }
 
-nav ul li {
-    margin-left: 20px;
-}
-
 nav ul li a {
     color: #f0e6d6; 
     text-decoration: none;
