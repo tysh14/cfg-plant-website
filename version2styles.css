@@ -14,7 +14,11 @@ body nav{
 }
 
 .navbar-items{
-    font-size: 20px;;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
 }
 
 .columns-container{
