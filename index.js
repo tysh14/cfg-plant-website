@@ -50,7 +50,7 @@ addEventListener("DOMContentLoaded", (event) => {
     
     function plant1Funct() {
         document.getElementById("image-container").style.backgroundImage = "url('plantshome/Bromeliad.webp')"
-        document.getElementById("image-container").style.backgroundSize = "150%"
+        document.getElementById("image-container").style.backgroundSize = "190%"
         document.getElementById("popup").style.visibility = "visible";
         document.getElementById("plant-name").textContent = "Bromeliad"
         document.getElementById("plant-description").textContent = "Plant 1 info"
@@ -59,7 +59,7 @@ addEventListener("DOMContentLoaded", (event) => {
     
     function plant2Funct() {
         document.getElementById("image-container").style.backgroundImage = "url('plantshome/Orchid.jpg')"
-        document.getElementById("image-container").style.backgroundSize = "100%"
+        document.getElementById("image-container").style.backgroundSize = "150%"
         document.getElementById("popup").style.visibility = "visible";
         document.getElementById("plant-name").textContent = "Orchid"
         document.getElementById("plant-description").textContent = "Plant 2 info"
@@ -76,7 +76,7 @@ addEventListener("DOMContentLoaded", (event) => {
     
     function plant4Funct() {
         document.getElementById("image-container").style.backgroundImage = "url('plantshome/RubberPlant.webp')"
-        document.getElementById("image-container").style.backgroundSize = "100%"
+        document.getElementById("image-container").style.backgroundSize = "150%"
         document.getElementById("popup").style.visibility = "visible";
         document.getElementById("plant-name").textContent = "Rubber Plant"
         document.getElementById("plant-description").textContent = "Plant 4 info"
