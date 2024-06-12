@@ -1,3 +1,25 @@
+body nav{
+    height: 10vh;
+}
+
+.bg-success {
+    --bs-bg-opacity: 0.5;
+}
+
+.navbar-items{
+    font-size: 20px;;
+}
+
+nav li { 
+    display: inline-block; 
+    margin-right: 20px; /* Adjust the value as needed */ 
+} 
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
 * {
     margin: 0;
     padding: 0;
