@@ -27,16 +27,9 @@ nav ul li a:hover {
 }
 
 /* Body styling */
-body {
-    font-family: 'Arial', sans-serif;
-    background: #d9d2b6; 
-    color: #044507; 
-}
 
 /* Header styling */
-header {
-    background: #7f7052;
-    color: #0f4d04; 
+header { 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -107,7 +100,6 @@ nav ul li a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #f0e6d6; 
     text-align: center;
 }
 
