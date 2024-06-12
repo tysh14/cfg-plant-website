@@ -123,7 +123,8 @@ p{
 }
 
 #plant-description {
-    font-size: 20px;
+    font-size: 18px;
+    padding-right: 20px;
 }
 
 #closeThisPopup {
