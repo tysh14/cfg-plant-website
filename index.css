@@ -126,6 +126,10 @@ p{
 
 }
 
+#plants-name {
+    text-decoration: underline;
+}
+
 #plant-description {
     font-size: 18px;
     padding-right: 20px;
