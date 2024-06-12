@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Directory</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<section id="products" class="section-p1">
+    <div class="container">
+        <h1>Welcome to the Plant Directory!</h1>
+        <p>Your one-stop destination for all your plant needs.</p>
+    </div>
+
+    <div class="container">
+        <h2>Featured Plants</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <a href="rubber-plant.html">
+                    <img src="3_4017da1e-04de-4f56-998e-481dc4ad157b.webp" alt="Rubber Plant">
+                    <h3>Rubber Plant</h3>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="chinese-evergreen.html">
+                    <img src="Red-Chinese-Evergreen-4_c6832acb27c72430f782d679cd672ef1.webp" alt="Chinese Evergreen Crete">
+                    <h3>Chinese Evergreen Crete</h3>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="bromeliad.html">
+                    <img src="bromeliad-indoors-950489120-fab1e3c5a0bd42d7a11e80720552acb2.webp" alt="Bromeliad">
+                    <h3>Bromeliad</h3>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="aloe-plant.html">
+                    <img src="plants-that-dont-need-water-aloe-plant (1).webp" alt="Aloe Plant">
+                    <h3>Aloe Plant</h3>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="orchid.html">
+                    <img src="GettyImages-1368204335-_small.jpg" alt="Orchid">
+                    <h3>Orchid</h3>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="Rosemary.html">
+                    <img src="Rosemary (Salvia Rosmarinus).png" alt="Rosemary">
+                    <h3>Rosemary</h3>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="Peace Lily.png">
+                    <img src="Peace Lily.png" alt="Peace Lily">
+                    <h3>Peace Lily</h3>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="Basil (Ocimum Basilicum).html">
+                    <img src="Basil (Ocimum Basilicum).png" alt="Basil (Ocimum Basilicum)">
+                    <h3>Basil (Ocimum Basilicum)</h3>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html> 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Directory</title>
+    <link rel="stylesheet" href="styles.css">
+
+<header id="header">
+    <a href="#" class="logo"><img src="logo.jpeg" alt="Logo" height="50px" width="50px"> Plant Directory</a>
+</header>
+
+<section id="product-details" class="section-p1">
+    <div class="container">
+        <h4>Rubber Plant</h4>
+        <img src="3_4017da1e-04de-4f56-998e-481dc4ad157b.webp" alt="Rubber Plant" class="product-img" style="max-width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        <h5 style="color: #006400; margin-top: 20px;">Care Tips:</h5>
+        <ul style="margin-bottom: 20px;">
+            <li style="margin-bottom: 10px;">Light: Bright, indirect sunlight.</li>
+            <li style="margin-bottom: 10px;">Water: Water when the top inch of soil is dry.</li>
+            <li style="margin-bottom: 10px;">Temperature: Prefers temperatures between 60-75°F (15-24°C).</li>
+            <li style="margin-bottom: 10px;">Humidity: Enjoys high humidity but can adapt to average indoor humidity.</li>
+            <li>Soil: Well-draining potting mix.</li>
+        </ul>
+    </div>
+
+    <div class="container"> 
+        <h4>Chinese Evergreen Crete</h4>
+        <img src="Red-Chinese-Evergreen-4_c6832acb27c72430f782d679cd672ef1.webp" alt="Chinese Evergreen Crete" style="max-width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        <h5 style="color: #006400; margin-top: 20px;">Care Tips</h5>
+        <ul style="margin-bottom: 20px;">
+            <li style="margin-bottom: 10px;">I'm a compact plant and a relatively slow grower but I could reach as high as 1m.</li>
+            <li style="margin-bottom: 10px;">I like medium to moderate light. If my leaves are dark, they can handle more light, if they're light, I'll only be able to tolerate medium light.</li>
+            <li style="margin-bottom: 10px;">Keep my soil lightly moist constantly but be careful not to overwater me as my delicate roots are susceptible to rot.</li>
+            <li style="margin-bottom: 10px;">Keep me away from draughts and in temperatures of between 18 and 24°C.</li>
+            <li style="margin-bottom: 10px;">Please feed me diluted fertiliser once a month during the growing season.</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h4 style="color: #006400; font-size: 1.5rem; margin-bottom: 10px;">Bromeliad</h4>
+        <img src="bromeliad-indoors-950489120-fab1e3c5a0bd42d7a11e80720552acb2.webp" alt="Bromeliad" style="max-width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        <h5 style="color: #006400; margin-top: 20px;">Care Tips</h5>
+        <ul style="margin-bottom: 20px;">
+            <li style="margin-bottom: 10px;">I'm a compact plant and a relatively slow grower but I could reach as high as 1m.</li>
+            <li style="margin-bottom: 10px;">I like medium to moderate light. If my leaves are dark, they can handle more light, if they're light, I'll only be able to tolerate medium light.</li>
+            <li style="margin-bottom: 10px;">Keep my soil lightly moist constantly but be careful not to overwater me as my delicate roots are susceptible to rot.</li>
+            <li style="margin-bottom: 10px;">Keep me away from draughts and in temperatures of between 18 and 24°C.</li>
+            <li style="margin-bottom: 10px;">Please feed me diluted fertiliser once a month during the growing season.</li>
+        </ul>
+    </div>
+
+ <div class="container"> 
+    <h4 style="color: #006400; font-size: 1.5rem; margin-bottom: 10px;">Aloe Plants</h4>
+    <img src="plants-that-dont-need-water-aloe-plant (1).webp" alt="Aloe Plants" style="max-width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+    <h5 style="color: #006400; margin-top: 20px;">Care Tips</h5>
+    <ul style="margin-bottom: 20px;">
+        <li style="margin-bottom: 10px;">Light: Aloe plants need bright, indirect sunlight. They can tolerate some direct sunlight, especially in the morning, but too much direct sun can cause the leaves to turn brown.</li>
+        <li style="margin-bottom: 10px;">Water: Water deeply but infrequently. Allow the top inch or two of soil to dry out completely between waterings. Overwatering can lead to root rot.</li>
+        <li style="margin-bottom: 10px;">Temperature: Aloe plants prefer temperatures between 55-80°F (13-27°C). They can tolerate cooler temperatures but should be protected from frost.</li>
+        <li style="margin-bottom: 10px;">Humidity: Aloe plants do well in low humidity. They are adapted to arid conditions and do not require additional humidity.</li>
+        <li>Soil: Use a well-draining soil mix, such as a cactus or succulent mix. Adding perlite or sand to regular potting soil can improve drainage.</li>
+    </ul>
+</div>
+
+    <div class="container"> 
+        <h4 style="color: #006400; font-size: 1.5rem; margin-bottom: 10px;">Orchids</h4>
+        <img src="GettyImages-1368204335-_small.jpg" alt="Orchid" style="max-width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        <h5 style="color: #006400; margin-top: 20px;">Care Tips</h5>
+        <ul style="margin-bottom: 20px;">
+            <li style="margin-bottom: 10px;">Light: Bright, indirect sunlight.</li>
+            <li style="margin-bottom: 10px;">Water: Once a week, allowing the potting medium to slightly dry out between waterings.</li>
+            <li style="margin-bottom: 10px;">Temperature: 60-75°F (16-24°C) during the day, slightly cooler at night.</li>
+            <li style="margin-bottom: 10px;">Humidity: High humidity levels, ideally between 50-70%.</li>
+            <li>Soil: Well-draining mix with bark, perlite, and sphagnum moss.</li>
+        </ul>
+    </div>
+
+    <div class="container"> 
+        <h4 style="color: #006400; font-size: 1.5rem; margin-bottom: 10px;">Rosemary (Salvia Rosmarinus)</h4> 
+        <img src="Rosemary (Salvia Rosmarinus).png" alt="Rosemary (Salvia Rosmarinus)" style="max-width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        <h5 style="color: #006400; margin-top: 20px;">Care Tips</h5>
+        <ul style="margin-bottom: 20px;">
+            <li style="margin-bottom: 10px;">Light: Bright, indirect sunlight.</li>
+            <li style="margin-bottom: 10px;">Water: Once a week, allowing the soil to slightly dry out between waterings.</li>
+            <li style="margin-bottom: 10px;">Temperature: 60-75°F (16-24°C) during the day, slightly cooler at night.</li>
+            <li style="margin-bottom: 10px;">Humidity: High humidity levels, ideally between 50-70%.</li>
+            <li>Soil: Well-draining mix with bark, perlite, and sphagnum moss.</li>
+        </ul>
+    </div>
+
+    <div class="container"> 
+        <h4 style="color: #006400; font-size: 1.5rem; margin-bottom: 10px;">Peace Lily</h4>
+        <img src="Peace Lily.png" alt="Peace Lily" style="max-width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        <h5 style="color: #006400; margin-top: 20px;">Care Tips</h5>
+        <ul style="margin-bottom: 20px;">
+            <li style="margin-bottom: 10px;">Light: Bright sunlight.</li>
+            <li style="margin-bottom: 10px;">Water: Once a week.</li>
+            <li style="margin-bottom: 10px;">Temperature: 60-75°F (16-24°C).</li>
+            <li style="margin-bottom: 10px;">Humidity: 50-70%.</li>
+            <li>Soil: Well-draining mix.</li>
+        </ul>
+    </div>
+
+    <div class="container"> 
+        <h4>Basil (Ocimum Basilicum)</h4>
+        <img src="Basil (Ocimum Basilicum).png" alt="Basil (Ocimum Basilicum)" style="max-width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        <h5 style=>Care Tips</h5>
+        <ul>
+            <li>Light: Thrives in bright sunlight, 6-8 hours daily.</li>
+            <li>Water: Keep soil moist, not waterlogged.</li>
+            <li>Temperature: Prefers 70-90°F (21-32°C).</li>
+            <li>Humidity: Moderate humidity, mist occasionally.</li>
+            <li>Soil: Well-draining soil mix.</li>
+        </ul>
+    </div>
+
+
+</section>
+<body>
+
+<footer>
+<p> WE are rooting for your plants.</p>
+</footer>
+
+</body>
+</html>
