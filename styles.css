@@ -117,6 +117,14 @@ nav ul li a:hover {
     text-align: center;
 }
 
+ul {
+    list-style-type: none;
+}
+.section-p1 h4 {
+    text-decoration: underline;
+}
+
+
 .section-p1 .container {
     max-width: 1200px;
     margin: auto;
