@@ -59,7 +59,7 @@ addEventListener("DOMContentLoaded", (event) => {
     
     function plant2Funct() {
         document.getElementById("image-container").style.backgroundImage = "url('plantshome/Orchid.jpg')"
-        document.getElementById("image-container").style.backgroundSize = "150%"
+        document.getElementById("image-container").style.backgroundSize = "130%"
         document.getElementById("popup").style.visibility = "visible";
         document.getElementById("plant-name").textContent = "Orchid"
         document.getElementById("plant-description").textContent = "I prefer bright but indirect light and direct sunlight can scorch my leaves! You should water me once a week and be careful not to let my roots sit in water or they'll rot. I enjoy temperatures between 16-24°C and high humidity levels. My favourite type of soil is made of thigns like bark, perlite and sphagnum moss!"
@@ -76,7 +76,7 @@ addEventListener("DOMContentLoaded", (event) => {
     
     function plant4Funct() {
         document.getElementById("image-container").style.backgroundImage = "url('plantshome/RubberPlant.webp')"
-        document.getElementById("image-container").style.backgroundSize = "150%"
+        document.getElementById("image-container").style.backgroundSize = "130%"
         document.getElementById("popup").style.visibility = "visible";
         document.getElementById("plant-name").textContent = "Rubber Plant"
         document.getElementById("plant-description").textContent = "Like my friend Orchid, I also enjoy bright but indirect sunlight. Please watter me once the top inch of my soil is dry. Although I can adapt to average indoor humidity, my favourite conditions are high humidity and a temperature of 15-24°C! When I'm looking sad, clean my leaves with a damp cloth to get rid of the dust."
