@@ -105,7 +105,7 @@ p{
     align-items: center;
 }
 
-.image-container {
+#image-container {
     position: static;
     border: 3px solid black;
     width: calc(0.3 * 50vw);
