@@ -9,8 +9,6 @@
 
 /* Header styling */
 header {
-    background: #7f7052;
-    color: #f0e6d6; 
     display: flex;
     justify-content: space-between;
     align-items: center;
